@@ -1,0 +1,50 @@
+.left_div{
+    width: 250px;
+    float: left;   
+}
+
+.middle_div{    
+    border:1px solid #000;
+    margin-left: 255px;
+}
+
+.draggable{
+    cursor: move;
+}
+
+
+
+.labelClass{
+    min-width: 150px;
+    display:  inline-block;
+    float: left;
+}
+
+.form_row{
+    width: 95%;
+    padding:5px;
+    margin: 2px;
+    list-style-type: none;    
+    background: #F2F2F2 url(../img/arrow.png) no-repeat center right;
+    cursor: move;
+}
+
+.seperatorClass{
+    width: 5%;
+    display:  inline-block;
+    float: left;
+}
+
+.inputClass{
+    display:  block;    
+}
+
+.cursor{
+    display:  inline-block;
+    float: right;
+    vertical-align: middle;
+}
+
+.selectedRow{
+    background-color:#E7E5E4;
+}
